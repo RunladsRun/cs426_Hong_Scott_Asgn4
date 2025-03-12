@@ -1,0 +1,3 @@
+repository "Tutorial2 2025-02-05_21-30-04/Tutorial2@2475777827178@cloud"
+  path "/"
+    smartbranch "/main" changeset "7"         
