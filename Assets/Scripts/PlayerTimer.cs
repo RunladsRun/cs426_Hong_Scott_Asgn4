@@ -21,7 +21,6 @@ public class PlayerTimer : MonoBehaviour
             GameObject record = GameObject.Find("Record");
             if (record != null)
                 recordText = record.GetComponent<TextMeshProUGUI>();
-                Debug.Log("Check");
             recordText.gameObject.SetActive(false);
         }
     }
@@ -38,7 +37,6 @@ public class PlayerTimer : MonoBehaviour
     public void StopTimer()
     {
         timerRunning = false;
-        Debug.Log("Check");
         recordText.text = "Record: " + playerTime + "s";
         recordText.gameObject.SetActive(true);
     }
